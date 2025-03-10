@@ -1,0 +1,9 @@
+for a in range(-2, 3):
+    for b in range(-2,3):
+        if a**2+b>4:
+            y=3*a+8*b
+        elif a**2+b==4:
+            y=9*b-2*a
+        else:
+            y=6*a+7*b
+        print(a,b,y)
